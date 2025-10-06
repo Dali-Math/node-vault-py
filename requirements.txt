@@ -1,0 +1,31 @@
+# Node-Vault-Py Dependencies
+# Python 3.8+ required
+
+# GUI Framework (tkinter is built-in with Python)
+# No external GUI dependencies needed for basic tkinter
+
+# Database
+# sqlite3 is built-in with Python
+
+# Cryptography for secure data encryption
+cryptography>=41.0.0
+
+# Data manipulation and export
+pandas>=2.0.0
+openpyxl>=3.1.0  # For Excel export support
+
+# HTTP requests for blockchain API integration
+requests>=2.31.0
+
+# Additional utility packages
+python-dateutil>=2.8.2
+
+# Optional: Enhanced GUI (uncomment if needed)
+# PyQt5>=5.15.0
+# PyQt5-sip>=12.12.0
+
+# Development and testing (optional)
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
+# black>=23.7.0
+# flake8>=6.1.0
